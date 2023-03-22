@@ -14,6 +14,7 @@
 		7642251029CAA15900AA5305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642250F29CAA15900AA5305 /* Assets.xcassets */; };
 		7642251329CAA15900AA5305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7642251129CAA15900AA5305 /* LaunchScreen.storyboard */; };
 		7642251B29CAB08300AA5305 /* ThreadNameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642251A29CAB08300AA5305 /* ThreadNameProvider.swift */; };
+		7642251D29CAB12D00AA5305 /* TestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642251C29CAB12D00AA5305 /* TestDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7642251229CAA15900AA5305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7642251429CAA15900AA5305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7642251A29CAB08300AA5305 /* ThreadNameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadNameProvider.swift; sourceTree = "<group>"; };
+		7642251C29CAB12D00AA5305 /* TestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7642250629CAA15800AA5305 /* AppDelegate.swift */,
 				7642250829CAA15800AA5305 /* SceneDelegate.swift */,
 				7642250A29CAA15800AA5305 /* ViewController.swift */,
+				7642251C29CAB12D00AA5305 /* TestDelegate.swift */,
 				7642251A29CAB08300AA5305 /* ThreadNameProvider.swift */,
 				7642250C29CAA15800AA5305 /* Main.storyboard */,
 				7642250F29CAA15900AA5305 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				7642250729CAA15800AA5305 /* AppDelegate.swift in Sources */,
 				7642250929CAA15800AA5305 /* SceneDelegate.swift in Sources */,
 				7642251B29CAB08300AA5305 /* ThreadNameProvider.swift in Sources */,
+				7642251D29CAB12D00AA5305 /* TestDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
