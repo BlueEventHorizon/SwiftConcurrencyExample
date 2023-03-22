@@ -18,8 +18,10 @@ class ViewController: UIViewController, TestDelegateProtocol, ThreadNameProvider
         caller.delegate = self
     }
 
-    func callback() {
-        printThreadName()
+    nonisolated func callback() {
+        Task {
+            await printThreadName()
+        }
     }
     
     func printThreadName() {
