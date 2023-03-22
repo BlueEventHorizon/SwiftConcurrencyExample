@@ -7,13 +7,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+@MainActor
+class ViewController: UIViewController, TestDelegateProtocol, ThreadNameProvider {
+    var caller: TestDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        caller = TestDelegate()
+        caller.delegate = self
     }
 
-
+    func callback() {
+        printThreadName()
+    }
+    
+    func printThreadName() {
+        print("ViewController \(self.threadName)")
+    }
 }
 
